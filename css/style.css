@@ -1,0 +1,128 @@
+body{
+    background-color: #000000f2;
+}
+.aside {
+    height: 100vh;
+    z-index: 9999;
+}
+.aside .links li a{
+    text-decoration: none;
+    color: #f9f6f6;
+
+}
+.aside .social-items a{
+    cursor: pointer;
+}
+.menue{
+    width: 250px;
+    /* z-index: 7777; */
+}
+.side-header{
+    width: 60px;
+    /* z-index: 9999; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* left: 230px; */
+}
+.side-header .toggle-menue, .side-header .social-icons{
+    cursor: pointer;
+}
+.side-header .toggle-menue i{
+    font-size: 25px;
+}
+
+.menue li{
+    opacity: 0;
+    padding-top: 700px;
+    
+}
+.social-items{
+    width: 220px;
+    bottom: 20px;
+    left: 10px;
+}
+.social-items p{
+    color: #999;
+    width: 100%;
+    font-size: 14px;
+}
+figure{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+figcaption{
+    position: absolute;
+    background-color: rgba(255,255,255,.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.meal figcaption h2{
+    font-weight: 300;
+    color: #212529;
+}
+
+figure:hover figcaption{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+#recipes li{
+    background-color: #d4edda;
+    color: #155724;
+}
+#tags li{
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.youtube {
+    background-color: #F70000;
+}
+
+/* Search */
+.search{
+    left: 10%;
+
+}
+.search input:focus{
+   color: white;
+}
+.search input::placeholder{
+    text-align: center;
+    
+}
+.loading-container{
+    display: flex;
+    transform: translateY(180px);
+    -webkit-transform: translateY(180px);
+    -moz-transform: translateY(180px);
+    -ms-transform: translateY(180px);
+    -o-transform: translateY(180px);
+}
+
+/* Area */
+.fa-city{
+    color: #e65a50ab;
+}
+.movie {
+    cursor: pointer;
+}
+.fa-bowl-food {
+    color: #9ee650ab;
+}

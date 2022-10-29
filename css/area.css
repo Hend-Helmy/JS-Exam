@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.aside {
+    height: 100vh;
+    z-index: 9999;
+}
+.aside .links li a{
+    text-decoration: none;
+    color: #f9f6f6;
+
+}
+.aside .social-items a{
+    cursor: pointer;
+}
+.menue{
+    width: 250px;
+    /* z-index: 7777; */
+}
+.side-header{
+    width: 60px;
+    /* z-index: 9999; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* left: 230px; */
+}
+.side-header .toggle-menue, .side-header .social-icons{
+    cursor: pointer;
+}
+.side-header .toggle-menue i{
+    font-size: 25px;
+}
+
+.menue li{
+    opacity: 0;
+    padding-top: 700px;
+    
+}
+.social-items{
+    width: 220px;
+    bottom: 20px;
+    left: 10px;
+}
+.social-items p{
+    color: #999;
+    width: 100%;
+    font-size: 14px;
+}
